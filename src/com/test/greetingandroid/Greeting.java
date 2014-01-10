@@ -11,5 +11,7 @@ public class Greeting extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.loadUrl("http://www.wp.pl");
     }
 }
